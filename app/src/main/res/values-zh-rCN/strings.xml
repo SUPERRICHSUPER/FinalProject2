@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">期末项目</string>
+
+    <string name="bear_message">熊图像生成器</string>
+    <string name="trivia_message">问答题库</string>
+    <string name="flight_tracker_message">航空航班追踪</string>
+    <string name="currency_message">货币转换</string>
+
+    <string name="width">宽度</string>
+    <string name="height">高度</string>
+    <string name="currency_convert">换算</string>
+    <string name="currency_switch">转换</string>
+    <string name="currency_reset">重置</string>
+    <string name="currency_help">帮助</string>
+    <string name="currency_from">从</string>
+    <string name="currency_to">到</string>
+    <string name="currency_welcome">欢迎来到货币换算</string>
+    <string name="currency_history">换算历史</string>
+    <string name="currency_A">货币 A</string>
+    <string name="currency_B">货币 B</string>
+    <string name="currency_A_amount">金额 A</string>
+    <string name="currency_B_amount">金额 B</string>
+    <string name="currency_ok">好</string>
+    <string name="currency_usage_title">用法</string>
+    <string name="currency_usage_detail">请输入货币名称（如美元) 和金额，然后点击换算按钮</string>
+    <string name="currency_question_title">问题：</string>
+    <string name="currency_question_detail">你想如何处理这条记录？</string>
+    <string name="currency_show">显示</string>
+    <string name="currency_cancel">取消</string>
+
+    <string name="currency_delete">删除</string>
+
+    <string name="currency_delete_notice">你刚删除了记录 #</string>
+    <string name="currency_undo">撤回</string>
+    <string name="currency_failure">换算失败</string>
+    <string name="currency_amount_error">请输入金额</string>
+    <string name="currency_amount_error_title">金额输入错误！</string>
+    <string name="currency_I_see">明白了</string>
+    <string name="currency_website">请参考 https://www.iban.com/currency-codes</string>
+    <string name="currency_name_wrong_title">需要帮助?</string>
+    <string name="currency_name_wrong">错误的货币名称</string>
+
+    <string name="Search_Flights">查询航班</string>
+    <string name="Save_Flight">保存航班信息</string>
+    <string name="Delete_Flight">删除航班信息</string>
+    <string name="List_Flights">显示已保存航班</string>
+
+    <string name="trivia_name_message">请输入姓名</string>
+    <string name="trivia_startButton_message">开始测试</string>
+    <string name="trivia_submitButton_message">提交测试</string>
+    <string name="trivia_scoresButton_message">前十名</string>
+    <string name="trivia_number_message">请输入题目数</string>
+
+    <string name="width_message">请输入宽度</string>
+    <string name="height_message">请输入高度</string>
+    <string name="instruction_message">小熊图像生成器说明</string>
+    <string name="instruction_detail_message">1. 用户以像素为单位指定图像的大小。\n 2. 用户可以将生成的图像保存到数据库中。\n 3. 用户可以显示图像列表并选择图像。</string>
+    <string name="ok_message">确定</string>
+    <string name="generate_bear_button">熊图像生成器</string>
+    <string name="yes_bear">是</string>
+    <string name="quesiton_image">您确定要生成图像吗？</string>
+    <string name="image_generated">图像已生成！</string>
+    <string name="size_generated">生成的图像大小</string>
+    <string name="no_bar">否</string>
+    <string name="Ok_bar">是</string>
+    <string name="change_message">改变吗？</string>
+    <string name="Homepage_message">主页</string>
+    <string name="yes_bar">是</string>
+    <string name="delete_message">你想删除图片吗?</string>
+    <string name="bear_positive_whole_numbers_Toast">数值必须是正数</string>
+    <string name="question_mesage">问题?</string>
+
+    <string name="image_help">帮助</string>
+
+</resources>
