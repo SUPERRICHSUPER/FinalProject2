@@ -22,6 +22,10 @@
         <activity
             android:name=".dict.MainActivity_dict"
             android:exported="false" />
+        <activity
+            android:name=".sunrise.MainActivity_sun"
+            android:exported="false" />
+
 
         <activity
             android:name=".MainActivity"

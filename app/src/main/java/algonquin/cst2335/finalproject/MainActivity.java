@@ -8,6 +8,7 @@ import android.os.Bundle;
 
 import algonquin.cst2335.finalproject.databinding.ActivityMainBinding;
 import algonquin.cst2335.finalproject.dict.MainActivity_dict;
+import algonquin.cst2335.finalproject.sunrise.MainActivity_sun;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -23,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(new Intent(this, FlightTracker.class)));
         binding.dictionary.setOnClickListener( click ->
                 startActivity(new Intent(this, MainActivity_dict.class)));
-//        binding.triviaButton.setOnClickListener( click ->
-//                startActivity(new Intent(this, TriviaQuestion.class)));
+        binding.Sunrise.setOnClickListener( click ->
+                startActivity(new Intent(this, MainActivity_sun.class)));
 //        binding.bearButton.setOnClickListener( click ->
 //                startActivity(new Intent(this, BearImageGenerator.class)));
     }

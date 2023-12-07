@@ -64,6 +64,12 @@
     <string name="delete_message">Do you want to delete the image?</string>
     <string name="question_mesage">Question?</string>
     <string name="image_help">Help</string>
-
+    <string name="app_about">Add</string>
+    <string name="app_about_msg">Do you want to save this site?</string>
+    <string name="str_ok">Confirm</string>
+    <string name="lat">LAT :</string>
+    <string name="lng">LNG :</string>
+    <string name="delete">Are you sure delete the Location?</string>
+    <string name="cancel">Cancel</string>
 
 </resources>
