@@ -7,6 +7,7 @@ import android.os.Bundle;
 
 
 import algonquin.cst2335.finalproject.databinding.ActivityMainBinding;
+import algonquin.cst2335.finalproject.deezer.MainActivity_deezer;
 import algonquin.cst2335.finalproject.dict.MainActivity_dict;
 import algonquin.cst2335.finalproject.sunrise.MainActivity_sun;
 
@@ -20,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-//        binding.aviationButton.setOnClickListener( click ->
-//                startActivity(new Intent(this, FlightTracker.class)));
+        binding.music.setOnClickListener( click ->
+                startActivity(new Intent(this, MainActivity_deezer.class)));
         binding.dictionary.setOnClickListener( click ->
                 startActivity(new Intent(this, MainActivity_dict.class)));
         binding.Sunrise.setOnClickListener( click ->
